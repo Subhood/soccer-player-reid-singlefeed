@@ -19,24 +19,35 @@ This project implements a complete solution for re-identifying soccer players in
 - **Color histogram features** (for re-identification)
 - Python, OpenCV, NumPy, Scikit-learn
 
+### 🔗 Model Download (Required Before Running)
+
+Please download the YOLOv11 model from the link below and place it inside the `models/` folder:
+
+📥 [Download yolov11_player.pt](https://drive.google.com/file/d/1-5fOSHOSB9UXyP_enOoZNAMScrePVcMD/view)
+
+📁 Destination: `models/yolov11_player.pt`
+
 ---
 
 ## 🗂️ Directory Structure
 
-soccer-reid/
-├── models/ # YOLOv11 model file (.pt)
-├── videos/ # Input video file
-├── outputs/ # Output video and logs
-├── src/ # Core source code modules
-│ ├── detect.py # Player detection
-│ ├── track.py # DeepSORT tracking
-│ ├── reid.py # Re-identification logic
-│ └── utils.py # Visualization & logging
-├── main.py # Pipeline entry point
-├── requirements.txt # Python dependencies
-├── README.md # This file
-└── report.pdf # Final report 
-
+soccer-player-reid-singlefeed/
+├── models/
+│   └── .gitkeep            ← placeholder
+├── videos/
+│   └── 15sec_input_720p.mp4
+├── outputs/
+│   ├── output_....mp4
+│   └── log.csv
+├── src/
+│   ├── detect.py
+│   ├── reid.py
+│   ├── track.py
+│   └── utils.py
+├── main.py
+├── requirements.txt
+├── README.md
+└── report.pdf
 
 ---
 
@@ -47,3 +58,15 @@ soccer-reid/
    python -m venv venv
    source venv/bin/activate        # Linux/Mac
    venv\Scripts\activate           # Windows
+
+## Install dependencies:
+pip install -r requirements.txt
+
+## Run the pipeline:
+python main.py
+
+## 👨‍💻 Author
+
+**Name**: Subhood M  
+**Submission Option**: Option 2 – Single Feed  
+**Email**: Subhood2004@gmail.com
