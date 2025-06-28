@@ -31,7 +31,24 @@ Please download the YOLOv11 model from the link below and place it inside the `m
 
 ## 🗂️ Directory Structure
 
-<pre> soccer-player-reid-singlefeed/ ├── models/ │ └── yolov11_player.pt ← ⬇️ Download manually & place here ├── videos/ │ └── 15sec_input_720p.mp4 ├── outputs/ │ ├── output_20250625_220045.mp4 │ └── log_20250625_220045.csv ├── src/ │ ├── detect.py │ ├── reid.py │ ├── track.py │ └── utils.py ├── main.py ├── requirements.txt ├── report.pdf ├── README.md └── .gitignore </pre>
+<pre> soccer-player-reid-singlefeed/ 
+   ├── models/ 
+   │ └── yolov11_player.pt ← ⬇️ Download manually & place here 
+   ├── videos/ 
+   │ └── 15sec_input_720p.mp4 
+   ├── outputs/ 
+   │ ├── output_20250625_220045.mp4 
+   │ └── log_20250625_220045.csv 
+   ├── src/ 
+   │ ├── detect.py 
+   │ ├── reid.py 
+   │ ├── track.py 
+   │ └── utils.py 
+   ├── main.py 
+   ├── requirements.txt 
+   ├── report.pdf 
+   ├── README.md 
+   └── .gitignore </pre>
 
 ---
 
