@@ -1,0 +1,1 @@
+venv/\nmodels/\noutputs/\n*.pt\n*.csv\n*.log\n__pycache__/\n*.mp4
